@@ -44,7 +44,7 @@ function createPokemon(pokemon){
 
     const sprite = document.createElement('IMG')
     sprite.classList.add('card-img-top')
-    sprite.src = pokemon.sprites.front_default;
+    sprite.src = pokemon.sprites.other.home.front_default;
 
     imgFrontContainer.appendChild(sprite);
 
